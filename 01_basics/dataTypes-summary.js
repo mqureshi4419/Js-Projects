@@ -1,5 +1,5 @@
 // Primitive Data Type
-// 7 types : String , Number , Boolean, null, undefined, Symbol, bigInt
+// 7 types : String, Number, Boolean, null, undefined, Symbol, bigInt
 
 const score = 100;
 
@@ -56,3 +56,32 @@ console.log(typeof id); //
         Represents large integers that cannot be represented by the Number type.
         The range is practically unlimited and depends on available memory.
  */
+
+
+// ****************************************************
+
+// Stack (Primitive), 
+// Heap (Non-Primitive) - u get reference
+
+let myYoutubeName = "HamzaGoneMad";
+
+let anotherYtName = myYoutubeName;
+
+anotherYtName = "ChaiaurHamza"
+
+console.log(anotherYtName);
+
+
+// Heap (Non-Primitive) but they go inside in stack 
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl",
+}
+
+
+let userTwo = userOne;
+
+userTwo.email = "Hamza@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
