@@ -20,7 +20,7 @@ console.log(gameName.indexOf('t')); // what is the character position
 const newString = gameName.substring(0, 4); // can't give negative value
 console.log(newString);
 
-const anotherString = gameName.slice(-8,4); // slice can be give neg value
+const anotherString = gameName.slice(-8,4); // slice can be give neg value - start from reverse
 console.log(anotherString);
 
 const newStringOne = "    Hamza    ";
