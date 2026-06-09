@@ -45,11 +45,41 @@ const users = [
 
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+// ****** Object de-structure
+
+const course = {
+    coursename: "Apple - Genius",
+    price: "999",
+    courseInstructor: "Hamza"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+
+// const navbar = ({company}) => {
+// } - for destructing 
+// navbar (company = "Hamza-Zone")
+
+// { // Json file for Api example
+//     "name": "Hamza",
+//     "courseName": "Apple-Gen",
+//     "price": "Free"
+// }
+
+// [ // Api in array format
+//     {},
+//     {},
+//     {},
+// ]
