@@ -1,7 +1,7 @@
 // switch (key) {
 //     case value:
         
-//         break; // breaks the cases so next value doesn't show
+//         break; // breaks the cases so next value doesn't show except default
 
 //     default:
 //         break; // 
