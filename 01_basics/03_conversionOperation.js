@@ -81,11 +81,11 @@
 
 // Conversion and Operations 
 let score = "Hamza";
-console.log(typeof score);
+// console.log(typeof score);
 
 let valueInNumber = Number(score)
-console.log(typeof valueInNumber);
-console.log(valueInNumber)
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber)
 
 // "33" => 33
 // "33abc" => NaN
@@ -94,16 +94,56 @@ console.log(valueInNumber)
 let isloggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isloggedIn)
-console.log(isloggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(isloggedIn);
+// console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 = false;
-//""" => false
+// """ => false
 // "Hamza" => true
 
 let someNumber = 33
 
-let stringNumber = String(someNumber)
-console.log(typeof stringNumber);
+// let stringNumber = String(someNumber)
+// console.log(typeof stringNumber);
 
+// ****************** Operations ******************
 
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/2);
+// console.log(2%3); // remainder 
+
+let str1 = "Hello "
+let str2 = "Ahmed"
+
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2); // 122 - conversion into string
+console.log(1 + 2 + "2");// 32 
+// ToPrimitive - ecmascript 
+// use () when doing operations for multiple values
+console.log((1 + 2) * 5 % 3); // 0
+
+console.log(true);// true
+console.log(+true);// 1 - true itself is a boolean
+// console.log(true+);// error
+console.log(+"");// 0 // not ideal for production
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2 // its a confusing code not ideal
+
+let gameCounter = 100
+gameCounter++ // post fix // 101
+++gameCounter //prefix // 101
+console.log(gameCounter); // 101 
+// learn prefix and postfix

@@ -2,6 +2,7 @@
 // 7 types : String, Number, Boolean, null, undefined, Symbol, bigInt
 
 const score = 100;
+const scoreValue = 100.3
 
 const id = Symbol('123');
 const anotherId = Symbol('123')
@@ -12,7 +13,7 @@ const bigNumber = 334838823838838223232n
 
 
 // Reference Type (Non Primitive)
-//  Array, Objects (Master this), Functions
+//  Array, Objects (Master browser events help with js), Functions
 
 const heros = ["SpiderMan", "Thor", "IronMan"]
 let myObj = {
