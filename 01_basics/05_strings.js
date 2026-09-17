@@ -3,12 +3,13 @@ const repoCount = 50;
 
 // console.log(name + repoCount + " Value"); // outdated no used in modern day
 
+// backticks - need to learn and why its important 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('Hamza-htc');
 
-console.log(gameName[0]);
-console.log(gameName.__proto__);
+console.log(gameName[0]); // access key
+console.log(gameName.__proto__); // object - best to view in console.log browser
 
 console.log(gameName.length);
 console.log(gameName.toUpperCase(gameName)); // all letter uppercase
